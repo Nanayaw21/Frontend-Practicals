@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="logo__nav">
+                <div class="logo">
+                    <img src="./images/icon-menu.svg" alt="menu" class="menu">
+                    <img src="./images/logo.svg" alt="logo">
+                </div>
+                <div class="nav__bg">
+                   
+                <ul class="nav__links">
+                     <img src="./images/icon-close-mobile.svg" alt="close" class="nav__close">
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="cart__nav">
+               <div class="cart">
+                <img src="./images/icon-cart.svg" alt="cart" class="cart__logo">
+                <span class="cart__items">0</span>
+               </div>
+               <div class="avatar">
+                <img src="./images/image-avatar.png" alt="profile">
+               </div> 
+            </div>
+
+            <div class="checkout__card">
+                <div class="div__h6">
+                <h6>Cart</h6>
+                </div>
+                <div class="card">
+                    <div>
+                    <img src="./images/image-product-1-thumbnail.jpg" alt="product" class="card__product">
+                    </div>
+                    <div>
+                        <p>Fall Limited Edition Sneakers</p>
+                        <div class="info__checkout">
+                            <span class="price">$125.00</span>
+                            <span>x</span>
+                            <span class="numb__quantity">3</span>
+                            <span class="total__price">$375.00</span>
+                        </div>
+                    </div>
+                   <div>
+                    <img src="./images/icon-delete.svg" alt="delete" class="delete">
+                   </div>
+                </div>
+                 <div>
+                 <button class="checkout__btn">Checkout</button>
+                 </div>
+                 <p class="empty">Your cart is empty</p>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="product__img">
+                <div class="prod">
+                    <img src="./images/image-product-1.jpg" alt="product" class="product">
+    
+                </div>
+                <div class="grid">
+                    <div class="grid__bg border">
+                    <img src="./images/image-product-1-thumbnail.jpg" alt="preview 1" class="products  preview-1 active">
+                    </div>
+                    <div class="grid__bg">
+                    <img src="./images/image-product-2-thumbnail.jpg" alt="preview 2" class="products  preview-2">
+                    </div>
+                    <div class="grid__bg">
+                    <img src="./images/image-product-3-thumbnail.jpg" alt="preview 3" class="products preview-3">
+                    </div>
+                    <div class="grid__bg">
+                    <img src="./images/image-product-4-thumbnail.jpg" alt="preview 4" class="products preview-4">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile__slider">
+                <div class="slide__bg">
+                <img src="./images/image-product-1.jpg" alt="slider-1" class="slide__1 slider__1">
+                </div>
+                <div class="left__slider">
+                    <img src="./images/icon-previous.svg" alt="left__slider" class="left__slide">
+               </div>
+                <div class="right__slider">
+                    <img src="./images/icon-next.svg" alt="right__slider" class="right__slide">
+                </div>
+            </div>
+
+            <div class="about">
+                <h5>SNEAKER COMPANY</h5>
+                <h2>Fall Limited Edition Sneakers</h2>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+                <div class="checkout__div">
+                <div class="checkout">
+                    <h1 class="price">$125.00</h1>
+                    <div class="discount__percentage">
+                        <p>50%</p>
+                    </div>
+                </div>
+                <p class="discount">$250.00</p>
+                </div>
+                <div class="add__to__cart">
+                    <div class="quantity">
+                        <img src="./images/icon-minus.svg" alt="prev" class="prev"> 
+                        <p class="quantity__number">0</p>
+                        <img src="./images/icon-plus.svg" alt="next" class="next">
+                    </div>
+                    <div>
+                        <button class="btn">
+                            <img src="./images/icon-cart.svg" alt="cart">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" bg">
+            <div class="preview">
+            <div class="close__div">
+            <img src="./images/icon-close.svg" alt="close" class="close ">
+            </div>
+            <div class="preview__thumbnail">
+                <img src="./images/image-product-1.jpg" alt="preview" class="product__1">
+                <div class="left">
+                    <img src="./images/icon-previous.svg" alt="left" class="left__arrow">
+                </div>
+                <div class="right">
+                    <img src="./images/icon-next.svg" alt="right" class="right__arrow">
+                </div>
+            </div>
+
+            <div class="grid__preview">
+                 <div class="bg__preview ">
+                     <img src="./images/image-product-1-thumbnail.jpg" alt="preview 1" class="prev1 del" >
+                 </div>
+               
+                 <div class="bg__preview ">
+                    <img src="./images/image-product-2-thumbnail.jpg" alt="preview 2" class="prev2 del">
+                </div>
+
+                    <div class="bg__preview">
+                    <img src="./images/image-product-3-thumbnail.jpg" alt="preview 3" class="prev3 del">
+                    </div>
+                    <div class="bg__preview">
+                    <img src="./images/image-product-4-thumbnail.jpg" alt="preview 4" class="prev4 del">
+                    </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
